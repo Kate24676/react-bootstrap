@@ -1,0 +1,13 @@
+body {
+    background: rgb(233, 196, 233);
+    padding: 0%;
+    border-bottom-color: blue;
+    margin: 0%
+}
+
+.item body {
+    margin: 0%;
+    padding: 20px;
+    display: inline-block;
+    cursor: pointer;
+}

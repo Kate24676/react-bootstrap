@@ -8,8 +8,9 @@ module.exports = {
   mode: 'development',
   entry: path.join(__dirname, 'src/index.jsx'),
   output: {
-    path: path.resolve(__dirname, 'public'),
-    filename: 'app.js',
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'js/[name].js',
+    chunkFilename: 'js/[name].js',
   },
   module: {
     rules: [
